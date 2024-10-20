@@ -4,6 +4,8 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { Scale } from 'lucide-react';
+
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -21,79 +23,80 @@ export const navItems = [
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Amit Verma",
+    company: "Global Enterprises",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "The platform connected me with an experienced advocate who resolved our legal issue quickly and professionally. The transparency and ease of use were exceptional!",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Priya Menon",
+    company: "Harmony Solutions",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I found an excellent mediator through this marketplace who helped resolve a long-standing business dispute. The reviews and ratings really helped me find the right expert.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Rajesh Kapoor",
+    company: "Innovative Ventures",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Thanks to the platform, I was able to hire a notary who handled all our document verification needs. The process was seamless, and the service quality exceeded my expectations.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Sunita Patel",
+    company: "Bright Futures Foundation",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "The arbitrator I found on the platform was a game-changer for our project. Their expertise in contract law helped us settle a complex matter quickly and fairly. Highly recommended!",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Ravi Sharma",
+    company: "NextGen Tech",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "This platform is a one-stop solution for all our legal needs. The advocate I hired was professional, knowledgeable, and handled our corporate legal matters with precision.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Nisha Gupta",
+    company: "Elevate Consulting",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "I was able to find a reliable document writer who helped us draft legal documents for a critical partnership. The process was smooth, and the platform made everything easy to manage.",
   },
 ];
 
+
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Scale />,
+    text: "Advocacy Services",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+    "Legal professionals specializing in criminal, civil, corporate, employment, tax, and intellectual property law provide expert legal defense, consultation, and representation.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <Scale />,
+    text: "Mediation Services",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+    "Certified mediators help resolve disputes in family matters, business conflicts, workplace issues, and real estate without the need for litigation.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <Scale />,
+    text: "Arbitration Services",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+    "Arbitrators offer alternative dispute resolution for complex international, commercial, and construction disputes.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Scale />,
+    text: "Notary Services",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+    "Licensed notaries provide document certification, power of attorney drafting, and notarization for legal transactions.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Scale />,
+    text: "Document Drafting & Writing",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+    "Licensed notaries provide document certification, power of attorney drafting, and notarization for legal transactions.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <Scale />,
+    text: "Specialized Legal Services",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+    "Legal document writers assist with the preparation of various legal agreements, wills, contracts, and other formal documents.",
   },
 ];
 
