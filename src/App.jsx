@@ -4,6 +4,7 @@ import Footer from"./components/Footer/Footer"
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Testimonials from './components/Testimonials'
+import About from './components/About'
 function App() {
 
   return (
@@ -14,7 +15,7 @@ function App() {
     
       <FeatureSection></FeatureSection>
       <Testimonials></Testimonials>
-    
+    <About ></About>
       </div>
       <Footer></Footer>
     </div>
